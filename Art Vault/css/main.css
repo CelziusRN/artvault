@@ -1,0 +1,105 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Contact */
+
+.contactcontainer{
+}
+
+.contact {
+    width: 33%;
+    float: left;
+}
+
+
+/* Links */
+a:link {
+    color: #6666ff
+}
+
+a:visited {
+    color: #aaa6ff
+}
+
+a:active {
+    color: #a66fff
+}
+
+/* parallax */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #666666;
+}
+
+.pimg1, .pimg2, .pimg3, .ptext{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /* 
+        fixed = parallax
+        scroll = normal
+    */
+}
+
+.pimg1 {
+    background-image: url(../images/cover.png);
+    min-height: 1000px;
+    
+}
+
+.pimg2 {
+    background-image: url(../images/cover3.png);
+    min-height: 600px;    
+}
+
+.pimg3 {
+    background-image: url(../images/cover2.png);
+    min-height: 600px;    
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #dddddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-left: 25%;
+}
+
+.ptext .border {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 20px;
+}
